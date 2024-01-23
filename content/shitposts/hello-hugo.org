@@ -1,0 +1,5 @@
+#+title: hello hugo
+#+subtitle: farewell, jekyll
+#+date: [2024-01-23 Tue]
+
+real information to come
