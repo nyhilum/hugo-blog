@@ -1,0 +1,8 @@
+#+title: readme
+
+a collection of tech posts and shitposts.
+
+* licenses
+dunno why you'd reference this stuff, but all written content (stuff under =/content/=) is licensed under [[./license.txt][CC BY-SA 4.0]].
+
+for what little code there is, it's licensed under [[./license-code.txt][AGPLv3]].
