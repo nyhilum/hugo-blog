@@ -1,5 +1,12 @@
-#+title: hello hugo
+#+title: hello, hugo
 #+subtitle: farewell, jekyll
 #+date: [2024-01-23 Tue]
 
-real information to come
+I've attempted several times to start a blog in the past, but one thing or another has always stopped me. I could make the excuse saying that it was the technologies stopping me rather than my own will, but that would be a convenient excuse. But, new year, new you and all that, so let's try again.
+
+There are a million jekyll -> hugo posts and vice versa, so I'll spare trite details. For me, switching to hugo was due to its native [[https://orgmode.org/][org-mode]] support by way of [[https://github.com/niklasfasching/go-org][go-org]]. Yes, yes I could just write by blog posts in markdown or use something like [[https://ox-hugo.scripter.co/][ox-hugo]] to convert the org syntax to markdown, but I didn't feel like dealing with that. I may do something eventually to hook up [[https://www.orgroam.com/][org-roam]] with org-publish and hugo, but that's future me's problem.
+
+
+Furthermore, to me, hugo just seems to be simpler than jekyll. hugo comes with quite a bit of features and it's its own binary, so I don't have to worry about ruby and all the gems that need to be updated. Also, hugo let's you organize your files in a more logical way, but maybe I just never understood how to do this the "right" way in jekyll.
+
+Static website generators seem to be a dime a dozen, so maybe I'll eventually just switch to using org-publish. But for now, hugo is doing its job well and I can wrap my head around it much better than jekyll. So here's to 2024, and hopefully publishing more posts.
