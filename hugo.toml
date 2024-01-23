@@ -1,6 +1,9 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'nyhil'
+enableGitInfo = true
+[frontmatter]
+    lastmod = ["lastmod", ":git", "date", "publishDate"]
 [params]
     subtitle = 'look at you, hacker.'
     dateFormat = '2006-01-02'

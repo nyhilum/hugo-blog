@@ -33,9 +33,10 @@
     {{ if isset .Params "date" }}
         {{ $date := .Date.Format "2006-01-02" }}
         {{ $lastmod := .Lastmod.Format "2006-01-02" }}
-        <p class="date">{{ .Date.Format "2006-01-02" }}
+        <p class="date">{{ $date }}
         {{ if ne $date $lastmod }}
          | mod: {{ $lastmod }}
         {{ end }}
+        </p>
     {{ end }}
 </div>
