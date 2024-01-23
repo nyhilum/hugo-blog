@@ -1,0 +1,5 @@
+<div class="nav">
+    {{ range .Site.Data.nav }}
+        <a href="{{ .link }}">{{ .name }}</a>
+    {{ end }}
+</div>

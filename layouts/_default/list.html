@@ -1,0 +1,14 @@
+{{ define "main" }}
+    <ul class="post-list">
+    {{ range where .Site.RegularPages "Params.type" "ne" "static" }}
+        <div class="post-item">
+            <a href="{{ .RelPermalink }} " class="post-link">
+                [{{ .Date.Format "2006-01-02"  }}] {{ .LinkTitle }}
+            </a>
+        {{ if isset .Params "subtitle" }}
+        <p class="post-subtitle">{{ index .Params "subtitle" }}</p>
+        {{ end }}
+        </div>
+    {{ end }}
+    </ul>
+{{ end }}

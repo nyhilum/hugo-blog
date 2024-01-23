@@ -1,0 +1,11 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'nyhil'
+[params]
+    subtitle = 'look at you, hacker.'
+    dateFormat = '2006-01-02'
+[markup]
+    defaultMarkddownHandler = 'org'
+    [markup.highlight]
+        lineNos = true
+        noClasses = false

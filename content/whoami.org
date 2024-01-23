@@ -1,0 +1,6 @@
+#+title: whoami
+#+subtitle: knowing the unknown
+#+draft: true
+#+layout: single
+#+type: static
+something about myself

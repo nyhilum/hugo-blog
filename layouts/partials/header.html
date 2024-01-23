@@ -1,0 +1,41 @@
+<head>
+    <meta charset="utf-8">
+    {{ $opts := dict "transpiler" "libsass" "targetPath" "css/style.css" }}
+    {{ with resources.Get "sass/main.scss" | resources.ToCSS $opts }}
+        <link rel="stylesheet" href="{{ .RelPermalink }}">
+    {{ end }}
+    <link rel="icon" href="/favicon.ico">
+    {{ if isset .Params "title" }}
+    <title>{{ .Site.Title }} | {{ .Params.title }}</title>
+    {{ else }}
+    <title>{{ .Site.Title }}</title>
+    {{ end }}
+</head>
+
+<div class="page-header">
+    {{ if isset .Params "title" }}
+        <p class="page-title">{{ .Params.title }}</p>
+    {{ else }}
+        <p class="page-title">{{ .Site.Title }}</p>
+    {{ end }}
+    {{ if isset .Params "subtitle" }}
+        <p class="page-subtitle">
+        {{ index .Params "subtitle" }}
+        {{ if isset .Params "ref_name" }}
+        <a href="#reference">[𝄞]</a>
+        {{ end }}
+        </p>
+    {{ else }}
+        <p class="page-subtitle">
+        {{ .Site.Params.subtitle }}
+        </p>
+    {{ end }}
+    {{ if isset .Params "date" }}
+        {{ $date := .Date.Format "2006-01-02" }}
+        {{ $lastmod := .Lastmod.Format "2006-01-02" }}
+        <p class="date">{{ .Date.Format "2006-01-02" }}
+        {{ if ne $date $lastmod }}
+         | mod: {{ $lastmod }}
+        {{ end }}
+    {{ end }}
+</div>

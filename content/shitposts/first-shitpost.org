@@ -1,0 +1,7 @@
+#+title: First Shitpost
+#+subtitle: subbysub
+#+draft: true
+#+date: [2024-01-21 Sun]
+
+
+some shitpost

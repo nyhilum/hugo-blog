@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: "FiraMono";
+  src:
+    local(""),
+    url("/fonts/firamono/FiraMono-Regular.ttf") format("truetype");
+}
+
+$background-color: #151515;
+$plaintext-color: white;
+$code-bg: rgba(0, 0, 0, 0.9);
+$code-color: #eaeaea;
+$global-font: #eaeaea;
+
+$header-color: rgb(153, 50, 255);
+$header-shadow: rgba(153, 50, 255, 0.1);
+$primary-color: rgb(214, 0, 214);
+$primary-shadow: 0 0 5px rgba(214, 0, 214, 0.9);
+$inline-color: rgb(0, 214, 0);
+$inline-shadow: 0 0 5px rgba(0, 214, 0, 0.8);
+$subtitle-shadow: rgba(0, 0, 0, 0.9);
+$border-color: rgba(214, 0, 214, 0.5);
+
+$header-font-sizes: 1.6em, 1.4em, 1.2em, 1em;
+$body-height: 1.4;
+$head-bottom-margin: -10px;
+$font-fam: "Fira Mono", monospace;
+
+@import "base", "layout", "syntax";

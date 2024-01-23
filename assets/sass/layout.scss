@@ -1,0 +1,85 @@
+.page-title {
+  font-size: 24px;
+  color: $header-color;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.page-subtitle,
+.post-subtitle {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: $primary-color;
+  text-shadow: $primary-shadow;
+}
+
+.page-tag-list {
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  color: $primary-color;
+  text-shadow: $primary-shadow;
+}
+
+.date {
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.page-header {
+  border-bottom: solid $border-color;
+  padding-bottom: 15px;
+}
+
+.post-item {
+  margin-bottom: 16px;
+}
+
+.post-list {
+  color: $primary-color;
+  text-shadow: $primary-shadow;
+  list-style-type: none;
+  margin-bottom: 1em;
+  padding: 0;
+}
+
+.tag-list {
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 16px;
+  color: $primary-color;
+  text-shadow: $primary-shadow;
+}
+
+.lineno {
+  color: white;
+}
+
+.gutter,
+.rouge-gutter {
+  padding-right: 5px;
+  border-right: 2px solid white;
+  width: 50px;
+  text-align: right;
+  text-shadow: none;
+}
+
+.glider {
+  line-height: 0.7;
+  margin-top: -0.1rem;
+  text-align: center;
+  color: $primary-color;
+  text-shadow: $primary-shadow;
+  font-weight: bolder;
+}
+
+.nav {
+  text-align: center;
+  margin-top: 15px;
+  height: 20px;
+}
+
+.verbatim {
+  color: $inline-color;
+  text-shadow: $inline-shadow;
+}

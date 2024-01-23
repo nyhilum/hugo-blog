@@ -1,0 +1,82 @@
+a {
+  text-decoration: none;
+  color: rgb(30, 142, 255);
+  text-shadow: 0 0 5px rgba(30, 142, 255, 0.5);
+}
+
+a:hover {
+  text-shadow: 0 0 5px rgba(47, 151, 255, 0.9);
+}
+
+@each $size in $header-font-sizes {
+  h#{index($header-font-sizes,$size)} {
+    font-size: $size;
+    color: $header-color;
+    text-shadow:
+      0 1px 1px rgba(0, 0, 0, 0.1),
+      0 0 5px $header-shadow,
+      0 0 10px $header-shadow;
+    font-weight: normal;
+    //margin-bottom: $head-bottom-margin;
+  }
+}
+
+html {
+  font-family: $font-fam;
+  background-color: $background-color;
+  color: $global-font;
+}
+
+body {
+  line-height: $body-height;
+  max-width: 800px;
+  hyphens: auto;
+  margin: 2em auto;
+  padding: 1em;
+}
+
+pre {
+  overflow-x: auto;
+  font-family: $font-fam;
+}
+
+code {
+  font-family: $font-fam;
+  color: $inline-color;
+}
+
+blockquote {
+  border-left: solid 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+footer {
+  border-top: solid $border-color;
+}
+
+table {
+  table-layout: auto;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+tr,
+th,
+td {
+  border: solid 1px;
+  padding: 6px;
+}
+
+img {
+  max-width: 100%;
+}
+
+figure.highlight {
+  margin-left: 0px;
+  margin-right: 0px;
+}

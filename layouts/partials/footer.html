@@ -1,0 +1,11 @@
+{{ if isset .Params "ref_name" }}
+<div class="references">
+    <p id="reference">[𝄞]: <a href={{ index .Params.ref_link }} target="_blank" rel="noopener noreferrer">
+        {{ index .Params.ref_name }}</a>
+        <a href="#">↩</a></p>
+</div>
+{{ end }}
+<footer>
+    {{ partial "navigation.html" . }}
+    <p class="glider">&nbsp;.&nbsp;<br />&nbsp;&nbsp;.<br />...</p>
+</footer>
