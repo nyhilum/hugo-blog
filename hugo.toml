@@ -8,7 +8,7 @@ enableGitInfo = true
     subtitle = 'look at you, hacker.'
     dateFormat = '2006-01-02'
 [markup]
-    defaultMarkddownHandler = 'org'
+    defaultMarkdownHandler = 'org'
     [markup.highlight]
         lineNos = true
         noClasses = false
