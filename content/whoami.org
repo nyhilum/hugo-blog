@@ -1,6 +1,10 @@
 #+title: whoami
 #+subtitle: knowing the unknown
-#+draft: true
 #+layout: single
 #+type: static
-something about myself
+
+into reversing, malware, OSINT, and exploitation. not very good at any of that, but i'm into it. oh, and metal \m/
+
+i may swear not infrequently.
+
+my thoughts, feelings, and ideas are the product of all of my experiences, so who's to say if my employer agrees or not.

@@ -5,3 +5,4 @@ tmp/
 .hugo_build.lock
 
 **/_drafts/**
+public/**
