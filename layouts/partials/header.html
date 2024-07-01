@@ -1,16 +1,6 @@
-<head>
-    <meta charset="utf-8">
-    {{ $opts := dict "transpiler" "libsass" "targetPath" "css/style.css" }}
-    {{ with resources.Get "sass/main.scss" | resources.ToCSS $opts }}
-        <link rel="stylesheet" href="{{ .RelPermalink }}">
-    {{ end }}
-    <link rel="icon" href="/favicon.ico">
-    {{ if isset .Params "title" }}
-    <title>{{ .Site.Title }} | {{ .Params.title }}</title>
-    {{ else }}
-    <title>{{ .Site.Title }}</title>
-    {{ end }}
-</head>
+<header>
+    {{ partial "navigation.html" . }}
+</header>
 
 <div class="page-header">
     {{ if isset .Params "title" }}
